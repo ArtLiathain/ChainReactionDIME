@@ -1,0 +1,54 @@
+GUI _Sw-VYWpvEe2h5bRrsXzQFA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "GameBoard"
+  DataContext _SyiboGpvEe2h5bRrsXzQFA at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Syy6UWpvEe2h5bRrsXzQFA at 240,10 size 150,190 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _SzFOMGpvEe2h5bRrsXzQFA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _SzGcUWpvEe2h5bRrsXzQFA at 10,30 size 130,130 {
+  		generalStyle GeneralStyling _SzlkgGpvEe2h5bRrsXzQFA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _SzLU0WpvEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _SzWT8WpvEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _SzZ-UWpvEe2h5bRrsXzQFA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _Szk9cGpvEe2h5bRrsXzQFA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _SzjvUGpvEe2h5bRrsXzQFA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _SzcakWpvEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _SzdosWpvEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  }
+}

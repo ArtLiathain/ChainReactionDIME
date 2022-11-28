@@ -1,0 +1,60 @@
+Process _LWgagF-SEeakMeYoloYxpg {
+  modelName "Home"
+  description "Home"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  StartSIB _LYO40F-SEeakMeYoloYxpg at 50,50 size 100,65 {
+  	-ControlFlow-> _-xUtUGUQEea0lrrxwspd7g  decorate "Polyline" at (2,0) {
+  		id _OaoS0F-SEeakMeYoloYxpg
+  		concurrent true
+  	}
+  }
+  
+  GUISIB _-xUtUGUQEea0lrrxwspd7g at 50,150 size 100,65 {
+  	cacheGUI false
+  	majorPage true
+  	libraryComponentUID "_LmrS0Ej8EeaK4_MRcoLfnw"
+  	name "PublicHome"
+  	label "PublicHome"
+  	ignoredBranch [  ]
+  	-BranchConnector-> _-xgTgGUQEea0lrrxwspd7g   {
+  		id _-xlzEGUQEea0lrrxwspd7g
+  		concurrent true
+  	}
+  }
+  
+  Branch _-xgTgGUQEea0lrrxwspd7g at 180,170 size 100,25 {
+  	name "Login"
+  	-ControlFlow-> _jOxFAW3GEe2wdtdHmSs5yA  decorate "" at (0,0) {
+  		id _joXQwW3GEe2wdtdHmSs5yA
+  		concurrent true
+  	}
+  }
+  
+  ProcessSIB _jOxFAW3GEe2wdtdHmSs5yA at 310,138 size 120,90 {
+  	libraryComponentUID "_JIQPIW3GEe2wdtdHmSs5yA"
+  	label "ShowGameBoard"
+  	ignoredBranch [  ]
+  	ComplexInputPort _jOyTIW3GEe2wdtdHmSs5yA at 5,67 size 110,18 {
+  		libraryComponentUID "_pA7PsW2sEe20BPbKhZTxXg"
+  		isList false
+  		name "board"
+  	}
+  }
+  
+  DataContext _kcnYMW3GEe2wdtdHmSs5yA at 140,240 size 180,104 {
+  	dfViewWorkaround true
+  	ComplexVariable _lXY-YW3GEe2wdtdHmSs5yA at 10,49 size 160,25 {
+  		expanded false
+  		libraryComponentUID "_pA7PsW2sEe20BPbKhZTxXg"
+  		name "board"
+  		dfViewWorkaround true
+  		isList false
+  		-ComplexRead-> _jOyTIW3GEe2wdtdHmSs5yA  decorate "" at (0,0) {
+  			id _lr4nsG3GEe2wdtdHmSs5yA
+  			dfViewWorkaround true
+  		}
+  	}
+  }
+}

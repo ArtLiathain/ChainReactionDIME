@@ -1,0 +1,405 @@
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_24_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_25_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_26_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_27_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_28_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_29_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_18_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_19_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_20_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_21_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_22_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_23_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_12_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_13_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_14_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_15_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_16_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_17_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_6_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_7_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_8_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_9_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_10_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_11_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+</div>
+<div 
+ class="row">
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_0_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_1_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_2_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_3_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_4_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+<div
+
+class="col-md-12 text-left"
+>
+<span 
+ >
+<span aria-live="polite" aria-atomic="true" class="text-left">
+<strong>
+{{board?.tile_91_5_93_?.population}}
+</strong>
+</span>
+</span>
+</div>
+</div>

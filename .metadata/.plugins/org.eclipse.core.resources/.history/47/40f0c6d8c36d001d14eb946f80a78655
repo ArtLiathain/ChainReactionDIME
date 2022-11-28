@@ -1,0 +1,690 @@
+GUI _Sw-VYWpvEe2h5bRrsXzQFA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "GameBoard"
+  DataContext _SyiboGpvEe2h5bRrsXzQFA at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Syy6UWpvEe2h5bRrsXzQFA at 240,10 size 700,750 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _SzFOMGpvEe2h5bRrsXzQFA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _b-hoAG26Ee2wdtdHmSs5yA at 10,30 size 680,130 {
+  		generalStyle GeneralStyling _b-tOMG26Ee2wdtdHmSs5yA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _b-qK4W26Ee2wdtdHmSs5yA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _b-qK4226Ee2wdtdHmSs5yA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _b-qx8W26Ee2wdtdHmSs5yA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _b-snIG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _b-sAEG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _b-rZAW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _b-rZA226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _fsKXYW26Ee2wdtdHmSs5yA at 120,30 size 100,80 {
+  			wideness Full
+  			layout Layout _fsLlgW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _fsLlgG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _fsK-cW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _fsK-c226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _gAzKoW26Ee2wdtdHmSs5yA at 560,30 size 100,80 {
+  			wideness Full
+  			layout Layout _gA0_0G26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _gA0YwG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _gAzxsW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _gAzxs226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _gWXyAW26Ee2wdtdHmSs5yA at 230,30 size 100,80 {
+  			wideness Full
+  			layout Layout _gWaOQG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _gWZnMG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _gWYZEW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _gWYZE226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _gqdysW26Ee2wdtdHmSs5yA at 450,30 size 100,80 {
+  			wideness Full
+  			layout Layout _gqg2AG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _gqgO8W26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _gqeZwW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _gqgO8G26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _g-DdEW26Ee2wdtdHmSs5yA at 340,30 size 100,80 {
+  			wideness Full
+  			layout Layout _g-FSQG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _g-ErMm26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _g-EEIW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _g-ErMW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  	
+  	Row _iFvd4W26Ee2wdtdHmSs5yA at 10,590 size 680,130 {
+  		generalStyle GeneralStyling _iFwFGW26Ee2wdtdHmSs5yA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _iFwFG226Ee2wdtdHmSs5yA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _iFwFHm26Ee2wdtdHmSs5yA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _iFwsAW26Ee2wdtdHmSs5yA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFwsB226Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFwsBm26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFwsCW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFwsDG26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _iFwsEG26Ee2wdtdHmSs5yA at 120,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFwsFm26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFwsFW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFwsGG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFwsG226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _iFwsH226Ee2wdtdHmSs5yA at 560,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFwsJW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFwsJG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFwsJ226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFwsKm26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _iFwsLm26Ee2wdtdHmSs5yA at 230,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFwsNG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFwsM226Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFwsNm26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFwsOW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _iFwsPW26Ee2wdtdHmSs5yA at 450,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFxTEG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFwsQm26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFxTEm26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFxTFW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _iFxTGW26Ee2wdtdHmSs5yA at 340,30 size 100,80 {
+  			wideness Full
+  			layout Layout _iFxTH226Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _iFxTHm26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _iFxTIW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _iFxTJG26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  	
+  	Row _i8b1UW26Ee2wdtdHmSs5yA at 10,310 size 680,130 {
+  		generalStyle GeneralStyling _i8ccjW26Ee2wdtdHmSs5yA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _i8ccj226Ee2wdtdHmSs5yA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _i8cckm26Ee2wdtdHmSs5yA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _i8dDcm26Ee2wdtdHmSs5yA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dDeG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dDd226Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dDem26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dDfW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _i8dDgW26Ee2wdtdHmSs5yA at 120,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dDh226Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dDhm26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dDiW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dDjG26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _i8dDkG26Ee2wdtdHmSs5yA at 560,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dDlm26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dDlW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dDmG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dDm226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _i8dDn226Ee2wdtdHmSs5yA at 230,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dDpW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dDpG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dDp226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dDqm26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _i8dDrm26Ee2wdtdHmSs5yA at 450,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dqhW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dqhG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dqh226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dqim26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _i8dqjm26Ee2wdtdHmSs5yA at 340,30 size 100,80 {
+  			wideness Full
+  			layout Layout _i8dqlG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _i8dqk226Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _i8dqlm26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _i8dqmW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  	
+  	Row _jqX5YW26Ee2wdtdHmSs5yA at 10,170 size 680,130 {
+  		generalStyle GeneralStyling _jqYgiG26Ee2wdtdHmSs5yA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _jqYgim26Ee2wdtdHmSs5yA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _jqYgjW26Ee2wdtdHmSs5yA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _jqYgkG26Ee2wdtdHmSs5yA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqYglm26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqYglW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqZHgG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqZHg226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _jqZHh226Ee2wdtdHmSs5yA at 120,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqZHjW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqZHjG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqZukG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqZuk226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _jqZul226Ee2wdtdHmSs5yA at 560,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqZunW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqZunG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqZun226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqZuom26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _jqZupm26Ee2wdtdHmSs5yA at 230,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqZurG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqZuq226Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqZurm26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqZusW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _jqZutW26Ee2wdtdHmSs5yA at 450,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqZuu226Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqZuum26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqZuvW26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqaVoG26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _jqaVpG26Ee2wdtdHmSs5yA at 340,30 size 100,80 {
+  			wideness Full
+  			layout Layout _jqaVqm26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _jqaVqW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _jqaVrG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _jqaVr226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  	
+  	Row _k34OUW26Ee2wdtdHmSs5yA at 10,450 size 680,130 {
+  		generalStyle GeneralStyling _k36qlG26Ee2wdtdHmSs5yA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _k36qlm26Ee2wdtdHmSs5yA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _k36qmW26Ee2wdtdHmSs5yA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _k36qnG26Ee2wdtdHmSs5yA at 10,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k36qom26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k36qoW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k36qpG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k36qp226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _k36qq226Ee2wdtdHmSs5yA at 120,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k36qsW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k36qsG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k36qs226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k36qtm26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _k374s226Ee2wdtdHmSs5yA at 560,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k374uW26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k374uG26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k374u226Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k374vm26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _k374wm26Ee2wdtdHmSs5yA at 230,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k374yG26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k374x226Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k374ym26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k374zW26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _k3740W26Ee2wdtdHmSs5yA at 450,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k3741226Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k3741m26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k3742W26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k38fwG26Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  		
+  		Col _k38fxG26Ee2wdtdHmSs5yA at 340,30 size 100,80 {
+  			wideness Full
+  			layout Layout _k38fym26Ee2wdtdHmSs5yA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _k38fyW26Ee2wdtdHmSs5yA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _k38fzG26Ee2wdtdHmSs5yA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _k38fz226Ee2wdtdHmSs5yA at 10,2 size 7,14 {
+  			}
+  		}
+  	}
+  }
+}

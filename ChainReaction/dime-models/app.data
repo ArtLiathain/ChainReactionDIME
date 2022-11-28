@@ -1,0 +1,114 @@
+Data _tH3fEMwMEeWZVvvwxpYu8A {
+  modelName "Data"
+  ConcreteType _dh6BYMwNEeWZVvvwxpYu8A at 90,60 size 111,55 {
+  	name "ConcreteUser"
+  	UserAttribute _fPY24MwNEeWZVvvwxpYu8A at 5,32 size 101,18 {
+  		oppositeAttribute _fOkXgMwNEeWZVvvwxpYu8A
+  		dataType _UdYs4MwNEeWZVvvwxpYu8A
+  		name "baseUser"
+  		isList false
+  	}
+  }
+  
+  UserType _UdYs4MwNEeWZVvvwxpYu8A at 74,190 size 143,145 {
+  	name "BaseUser"
+  	UserAttribute _fOkXgMwNEeWZVvvwxpYu8A at 5,32 size 133,18 {
+  		oppositeAttribute _fPY24MwNEeWZVvvwxpYu8A
+  		dataType _dh6BYMwNEeWZVvvwxpYu8A
+  		name "concreteUser"
+  		isList true
+  	}
+  	
+  	PrimitiveAttribute _YIIgUMwNEeWZVvvwxpYu8A at 5,104 size 133,18 {
+  		dataType Text
+  		name "password"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _3QnzMM46EeWKGIrSDzlNog at 5,68 size 133,18 {
+  		dataType File
+  		name "image"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _VE6ToM5BEeWKGIrSDzlNog at 5,50 size 133,18 {
+  		dataType Text
+  		name "firstName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _WYcYEM5BEeWKGIrSDzlNog at 5,86 size 133,18 {
+  		dataType Text
+  		name "lastName"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _1aiCkG_QEeaqHezD6-M0AA at 5,122 size 133,18 {
+  		dataType Text
+  		name "username"
+  		isList false
+  	}
+  	-UserAssociation-> _dh6BYMwNEeWZVvvwxpYu8A  decorate "Text" at (4,-8) decorate "Text" at (12,-7) {
+  		id _fOZ_cMwNEeWZVvvwxpYu8A
+  		targetAttr _fOkXgMwNEeWZVvvwxpYu8A
+  		isHidden false
+  		sourceAttr _fPY24MwNEeWZVvvwxpYu8A
+  	}
+  }
+  
+  ConcreteType _pA7PsW2sEe20BPbKhZTxXg at 390,90 size 140,55 {
+  	name "Board"
+  	BidirectionalAttribute _VOyFcG2tEe20BPbKhZTxXg at 5,32 size 130,18 {
+  		oppositeAttribute _VO72cW2tEe20BPbKhZTxXg
+  		dataType _q_yJEW2sEe20BPbKhZTxXg
+  		name "tile"
+  		isList true
+  	}
+  	-BidirectionalAssociation-> _q_yJEW2sEe20BPbKhZTxXg  decorate "Text" at (2,-10) decorate "Text" at (-39,-4) {
+  		id _VOpikG2tEe20BPbKhZTxXg
+  		targetAttr _VOyFcG2tEe20BPbKhZTxXg
+  		isHidden false
+  		sourceAttr _VO72cW2tEe20BPbKhZTxXg
+  	}
+  }
+  
+  ConcreteType _q_yJEW2sEe20BPbKhZTxXg at 390,220 size 140,145 {
+  	name "Tile"
+  	PrimitiveAttribute _s5SBUW2sEe20BPbKhZTxXg at 5,32 size 130,18 {
+  		dataType Integer
+  		name "x"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _tGQGUW2sEe20BPbKhZTxXg at 5,50 size 130,18 {
+  		dataType Integer
+  		name "y"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _uJtucW2sEe20BPbKhZTxXg at 5,68 size 130,18 {
+  		dataType Integer
+  		name "colour"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _uYWnYW2sEe20BPbKhZTxXg at 5,86 size 130,18 {
+  		dataType Integer
+  		name "population"
+  		isList false
+  	}
+  	
+  	PrimitiveAttribute _ukqlEW2sEe20BPbKhZTxXg at 5,104 size 130,18 {
+  		dataType Integer
+  		name "capacity"
+  		isList false
+  	}
+  	
+  	BidirectionalAttribute _VO72cW2tEe20BPbKhZTxXg at 5,122 size 130,18 {
+  		oppositeAttribute _VOyFcG2tEe20BPbKhZTxXg
+  		dataType _pA7PsW2sEe20BPbKhZTxXg
+  		name "board"
+  		isList false
+  	}
+  }
+}

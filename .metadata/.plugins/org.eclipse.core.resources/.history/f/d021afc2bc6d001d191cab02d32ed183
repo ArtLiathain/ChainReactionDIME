@@ -1,0 +1,53 @@
+Process _JZdn0W2uEe20BPbKhZTxXg {
+  modelName "CreateBoard"
+  description "CreateBoard"
+  dataFlowView true
+  processType Basic
+  isStateful false
+  DataContext _JZljoW2uEe20BPbKhZTxXg at 20,0 size 210,100 {
+  	dfViewWorkaround true
+  }
+  
+  StartSIB _JZmxwG2uEe20BPbKhZTxXg at 330,20 size 100,65 {
+  }
+  
+  EndSIB _JZp1EW2uEe20BPbKhZTxXg at 330,500 size 100,65 {
+  	branchName "success"
+  }
+  
+  ProcessSIB _Zl2E8W2wEe20BPbKhZTxXg at 320,190 size 120,126 {
+  	libraryComponentUID "_tZaLgW2vEe20BPbKhZTxXg"
+  	label "CreateTile"
+  	ignoredBranch [  ]
+  	PrimitiveInputPort _ZmGjoW2wEe20BPbKhZTxXg at 5,67 size 110,18 {
+  		dataType Integer
+  		isList false
+  		name "x"
+  	}
+  	
+  	PrimitiveInputPort _ZmKOAW2wEe20BPbKhZTxXg at 5,85 size 110,18 {
+  		dataType Integer
+  		isList false
+  		name "y"
+  	}
+  	
+  	PrimitiveInputPort _ZmMqQW2wEe20BPbKhZTxXg at 5,103 size 110,18 {
+  		dataType Integer
+  		isList false
+  		name "capacity"
+  	}
+  	-BranchConnector-> _ZmRiwW2wEe20BPbKhZTxXg   {
+  		id _ZmSJ0W2wEe20BPbKhZTxXg
+  		concurrent true
+  	}
+  }
+  
+  Branch _ZmRiwW2wEe20BPbKhZTxXg at 320,340 size 120,50 {
+  	name "success"
+  	ComplexOutputPort _ZmWbQW2wEe20BPbKhZTxXg at 5,27 size 110,18 {
+  		libraryComponentUID "_q_yJEW2sEe20BPbKhZTxXg"
+  		isList false
+  		name "newTile"
+  	}
+  }
+}

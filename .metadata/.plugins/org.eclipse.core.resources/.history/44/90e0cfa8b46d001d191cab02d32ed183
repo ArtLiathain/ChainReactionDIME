@@ -1,0 +1,724 @@
+GUI _Sw-VYWpvEe2h5bRrsXzQFA {
+  fullWidth false
+  disableAutoLayout false
+  additionalJavaScript [  ]
+  additionalStylesheets [  ]
+  title "GameBoard"
+  DataContext _SyiboGpvEe2h5bRrsXzQFA at 10,10 size 180,130 {
+  	dfViewWorkaround true
+  }
+  
+  Template _Syy6UWpvEe2h5bRrsXzQFA at 240,10 size 750,760 {
+  	blockName ""
+  	disableAutoLayout false
+  	generalStyle GeneralStyling _SzFOMGpvEe2h5bRrsXzQFA {
+  			tallness Fitting
+  			marginBottom None
+  			attributes [  ]
+  			marginTop None
+  		}
+  	Row _SzGcUWpvEe2h5bRrsXzQFA at 10,30 size 730,700 {
+  		generalStyle GeneralStyling _SzlkgGpvEe2h5bRrsXzQFA {
+  				tallness Fitting
+  				marginBottom None
+  				attributes [  ]
+  				marginTop None
+  			}
+  		MoveUp _SzLU0WpvEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  		}
+  		
+  		MoveDown _SzWT8WpvEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  		}
+  		
+  		Col _SzZ-UWpvEe2h5bRrsXzQFA at 10,30 size 700,650 {
+  			wideness Full
+  			layout Layout _Szk9cGpvEe2h5bRrsXzQFA {
+  					size Default
+  					offset None
+  					alignment Left
+  				}
+  			generalStyle GeneralStyling _SzjvUGpvEe2h5bRrsXzQFA {
+  					tallness Fitting
+  					marginBottom None
+  					attributes [  ]
+  					marginTop None
+  				}
+  			MoveLeft _SzcakWpvEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  			}
+  			
+  			MoveRight _SzdosWpvEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  			}
+  			
+  			Table _l8wQ8GpzEe2h5bRrsXzQFA at 10,30 size 680,110 {
+  				striped true
+  				numbering false
+  				pagination 0
+  				autoSorted true
+  				condensed true
+  				reSortable false
+  				bordered true
+  				hover false
+  				responsive true
+  				name "table"
+  				choices NONE
+  				dropTargets [  ]
+  				generalStyle GeneralStyling _l85a4GpzEe2h5bRrsXzQFA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _l84MwWpzEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _l84z0WpzEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  				}
+  				
+  				TableEntry _w7LGUGpzEe2h5bRrsXzQFA at 10,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _w7l9EGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _w7hEkWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _w7hroWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _xROO0WpzEe2h5bRrsXzQFA at 230,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _xRVjkGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _xRRSIWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _xRTuYWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _xndkkWpzEe2h5bRrsXzQFA at 340,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _xngn4GpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _xneysGpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _xneysmpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _x5yqsWpzEe2h5bRrsXzQFA at 450,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _x58bsGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _x528IWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _x53jMWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _yJ_p4WpzEe2h5bRrsXzQFA at 560,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _yKGXkGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _yKDUQWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _yKEiYWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _yjw0wWpzEe2h5bRrsXzQFA at 120,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _yj0fIGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _yjyC4WpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _yjyC42pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  			
+  			Table _2xfZcWpzEe2h5bRrsXzQFA at 10,150 size 680,110 {
+  				striped true
+  				numbering false
+  				pagination 0
+  				autoSorted true
+  				condensed true
+  				reSortable false
+  				bordered true
+  				hover false
+  				responsive true
+  				name "table"
+  				choices NONE
+  				dropTargets [  ]
+  				generalStyle GeneralStyling _2xicwGpzEe2h5bRrsXzQFA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _2xhOoWpzEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _2xhOo2pzEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  				}
+  				
+  				TableEntry _4Hh_UWpzEe2h5bRrsXzQFA at 10,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _4HotAGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _4HimYWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _4Hj0gWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _4VneoWpzEe2h5bRrsXzQFA at 120,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _4VuMUGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _4VoFsWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _4Vqh8WpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _4jN1wWpzEe2h5bRrsXzQFA at 560,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _4jW_sGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _4jTVUWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _4jTVU2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _4uaZIWpzEe2h5bRrsXzQFA at 230,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _4ummYGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _4ufRoWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _4ufRo2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _46peUWpzEe2h5bRrsXzQFA at 340,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _46yoQGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _46qscWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _46rTgWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _5F4d8WpzEe2h5bRrsXzQFA at 450,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _5GC2AGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _5F5sEWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _5F6TIWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  			
+  			Table _3AYxEWpzEe2h5bRrsXzQFA at 10,270 size 680,110 {
+  				striped true
+  				numbering false
+  				pagination 0
+  				autoSorted true
+  				condensed true
+  				reSortable false
+  				bordered true
+  				hover false
+  				responsive true
+  				name "table"
+  				choices NONE
+  				dropTargets [  ]
+  				generalStyle GeneralStyling _3AamQGpzEe2h5bRrsXzQFA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _3AZYIWpzEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _3AZ_MWpzEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  				}
+  				
+  				TableEntry _5WE2EWpzEe2h5bRrsXzQFA at 10,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _5WLjwGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _5WIgcWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _5WJHgWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _5mEZ4WpzEe2h5bRrsXzQFA at 120,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _5mJ5cGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _5mFoAWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _5mGPEWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _5045AWpzEe2h5bRrsXzQFA at 340,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _51HigGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _50-YkWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _51CC8WpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _6G8SUWpzEe2h5bRrsXzQFA at 230,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _6HAjwGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _6G85YWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _6G85Y2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _6UqlQWpzEe2h5bRrsXzQFA at 560,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _6UuPoGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _6UrMUWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _6UrMU2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _6jqDgWpzEe2h5bRrsXzQFA at 450,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _6j2QwGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _6jr4sWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _6ju8AWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  			
+  			Table _3S3BIWpzEe2h5bRrsXzQFA at 10,510 size 680,110 {
+  				striped true
+  				numbering false
+  				pagination 0
+  				autoSorted true
+  				condensed true
+  				reSortable false
+  				bordered true
+  				hover false
+  				responsive true
+  				name "table"
+  				choices NONE
+  				dropTargets [  ]
+  				generalStyle GeneralStyling _3S42UGpzEe2h5bRrsXzQFA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _3S3oMWpzEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _3S4PQWpzEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  				}
+  				
+  				TableEntry _8ZxQkWpzEe2h5bRrsXzQFA at 10,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _8Z1iAGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _8Zx3oWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _8ZyesWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _83pfYWpzEe2h5bRrsXzQFA at 120,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _83tJwGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _83qGcWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _83qGc2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _9HkxwWpzEe2h5bRrsXzQFA at 230,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _9HpDMGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _9HlY0WpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _9Hl_4WpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _9fh-wWpzEe2h5bRrsXzQFA at 340,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _9fmQMGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _9fil0WpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _9fjM4WpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _9t6ZAWpzEe2h5bRrsXzQFA at 560,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _9t_RgGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _9t7AEWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _9t7nIWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _99H5sWpzEe2h5bRrsXzQFA at 450,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _99RDoGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _99NZQWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _99NZQ2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  			
+  			Table _3jca0WpzEe2h5bRrsXzQFA at 10,390 size 680,110 {
+  				striped true
+  				numbering false
+  				pagination 0
+  				autoSorted true
+  				condensed true
+  				reSortable false
+  				bordered true
+  				hover false
+  				responsive true
+  				name "table"
+  				choices NONE
+  				dropTargets [  ]
+  				generalStyle GeneralStyling _3jeQAGpzEe2h5bRrsXzQFA {
+  						tallness Fitting
+  						marginBottom None
+  						attributes [  ]
+  						marginTop None
+  					}
+  				MoveUp _3jdB4WpzEe2h5bRrsXzQFA at 2,2 size 14,7 {
+  				}
+  				
+  				MoveDown _3jdo8WpzEe2h5bRrsXzQFA at 2,10 size 14,7 {
+  				}
+  				
+  				TableEntry _6y6ngWpzEe2h5bRrsXzQFA at 10,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _6y-R4GpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _6y7OkWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _6y71oWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _7CxocWpzEe2h5bRrsXzQFA at 340,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _7C4WIGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _7CzdoWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _7C0EsWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _7Sp3gWpzEe2h5bRrsXzQFA at 560,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _7SuwAGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _7SqekWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _7SrFoWpzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _7h7poWpzEe2h5bRrsXzQFA at 450,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _7iDlcGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _7h83wWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _7h83w2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _70ojMWpzEe2h5bRrsXzQFA at 120,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _70sNkGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _70pKQWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _70pKQ2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  				
+  				TableEntry _8Dih4WpzEe2h5bRrsXzQFA at 230,30 size 100,60 {
+  					fullTextSearch false
+  					defaultSorting NONE
+  					label "Column"
+  					sortable false
+  					generalStyle GeneralStyling _8DnaYGpzEe2h5bRrsXzQFA {
+  							tallness Fitting
+  							marginBottom None
+  							attributes [  ]
+  							marginTop None
+  						}
+  					MoveLeft _8DjwAWpzEe2h5bRrsXzQFA at 2,2 size 7,14 {
+  					}
+  					
+  					MoveRight _8DjwA2pzEe2h5bRrsXzQFA at 10,2 size 7,14 {
+  					}
+  				}
+  			}
+  		}
+  	}
+  }
+}
