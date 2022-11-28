@@ -35,7 +35,7 @@ public class Native {
 //	protected TableEntryController teController;
 
 
-	public static Table createGameBoardWordle(long width, long height) {
+	public static void createGameBoardWordle(long width, long height) {
 //		Native one = new Native();
 //		return one.init(width, height);
 		// new table.

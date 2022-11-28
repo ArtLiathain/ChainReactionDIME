@@ -130,7 +130,7 @@ class ConcreteUser extends BaseModel
 			if (jsog.containsKey("dywaSwitchedTo")) {
 				core.Map<core.String,core.dynamic> jsogObj = jsog["dywaSwitchedTo"];
 				if(jsogObj != null) {
-					ConcreteUser valuearnHm0G8VEe2k9cNodKgTDA;
+					ConcreteUser valueauSeE4G84Ee2wW4o_45_nxAstQ;
 					
 					core.String jsogId;
 					
@@ -141,22 +141,22 @@ class ConcreteUser extends BaseModel
 					 	jsogId = jsogObj['@id'];
 					}
 					if (cache.containsKey(jsogId)) {
-						valuearnHm0G8VEe2k9cNodKgTDA = cache[jsogId];
+						valueauSeE4G84Ee2wW4o_45_nxAstQ = cache[jsogId];
 					}
 					else {
 						if (jsogObj != null) {
 							if (jsogObj['dywaRuntimeType'] == "de.ls5.dywa.generated.rest.types.ConcreteUserImpl") {
-								valuearnHm0G8VEe2k9cNodKgTDA = new ConcreteUser(cache: cache, jsog: jsogObj);
+								valueauSeE4G84Ee2wW4o_45_nxAstQ = new ConcreteUser(cache: cache, jsog: jsogObj);
 							}
 							else {
-								valuearnHm0G8VEe2k9cNodKgTDA = new ConcreteUser(cache: cache,jsog: jsogObj);
+								valueauSeE4G84Ee2wW4o_45_nxAstQ = new ConcreteUser(cache: cache,jsog: jsogObj);
 							}
 						}
 						else {
-							valuearnHm0G8VEe2k9cNodKgTDA = new ConcreteUser(cache: cache,jsog: jsogObj);
+							valueauSeE4G84Ee2wW4o_45_nxAstQ = new ConcreteUser(cache: cache,jsog: jsogObj);
 						}
 					}
-					this._dywaSwitchedTo = valuearnHm0G8VEe2k9cNodKgTDA;
+					this._dywaSwitchedTo = valueauSeE4G84Ee2wW4o_45_nxAstQ;
 				}
 			}
 			
